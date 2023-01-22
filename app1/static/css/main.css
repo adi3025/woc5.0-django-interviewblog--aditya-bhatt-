@@ -1,0 +1,31 @@
+ 
+.button
+{
+    background-color: rgb(12, 129, 231); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: fixed ;
+  font-size: 16px;
+}
+
+.a
+{
+    font-size: xx-large;
+    
+    font: times new roman;
+    color: rgb(12, 129, 231);
+}
+
+.link
+{
+    color: rgb(12, 129, 231);
+    background-color: class ="link2";
+}
+
+.link2
+{
+    color: black;
+}

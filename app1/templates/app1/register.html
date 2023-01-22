@@ -1,0 +1,18 @@
+{%extends 'app1/main.html'%}
+{%block content%}
+
+    <div class="a">Register</div>
+    
+            {%if error_msg %}
+                {{error}}
+            {% endif %}
+
+                <form action="" method="POST">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <input type="submit" value ="Submit" class = "btn btn-secondary">
+                </form>
+                <a href="http://127.0.0.1:8000/authenticate/login">Go to Login</a>       
+                
+                {% endblock %}
+            
